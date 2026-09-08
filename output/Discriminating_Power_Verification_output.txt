@@ -1,0 +1,23 @@
+==============================================================================
+DISCRIMINATING-POWER VERIFICATION -- Section 4.2 (RESOLVED)
+Manuscript claims (current): TFR 67.9%, CBR 82.1%, IMR 78.6%, Age 32.1%, CDR 71.4%
+==============================================================================
+
+Method                                                                  TFR     CBR     IMR     Age     CDR
+----------------------------------------------------------------------------------------------------------
+A: Categorical vote == published stage (n=28) [MANUSCRIPT METHOD]      67.9    82.1    78.6    32.1    71.4
+B: Pairwise vs. 4-indicator continuous score (n=27) [not used]         91.7    89.4    83.3    72.3    45.2
+C: Pairwise vs. ordinal stage, differing pairs (n=28) [not used]       94.1    89.4    88.9    75.1    45.4
+D: Pairwise vs. constructed 5-indicator score (n=28) [not used]        88.6    89.9    87.2    69.2    49.6
+Manuscript claim (current)                                             67.9    82.1    78.6    32.1    71.4
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+MATCH. Method A -- the manuscript's stated method -- reproduces Section
+4.2's current figures exactly for all five indicators. This is fully
+resolved: not because a hidden methodology note was found, but because
+the manuscript was corrected to report what this reproducible method
+actually computes. Methods B-D remain unreproduced by design -- they were
+alternatives considered during the original investigation, not claims the
+manuscript makes, and are retained above only for audit purposes.

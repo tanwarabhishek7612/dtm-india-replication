@@ -1,0 +1,39 @@
+==============================================================================
+STEP 1 -- VALIDATE SCORING ENGINE AGAINST ALL 28 PUBLISHED STAGES
+==============================================================================
+All 28 states: computed stage == published Table 2 stage. Engine trusted.
+
+==============================================================================
+STEP 2 -- SENSITIVITY TEST: shift age-structure band up one tier
+for Kerala, Tamil Nadu, Andhra Pradesh, Telangana
+==============================================================================
+
+Kerala (age=12.6%, band=S4->S5, published=S5)
+  Baseline (age->S4): composite = S5   totals = {'S2': 0, 'S3': 10, 'S4': 10, 'S5': 80}
+  Shifted  (age->S5): composite = S5   totals = {'S2': 0, 'S3': 10, 'S4': 0, 'S5': 90}
+  No reclassification
+
+Tamil Nadu (age=10.4%, band=S4->S5, published=S5)
+  Baseline (age->S4): composite = S5   totals = {'S2': 0, 'S3': 0, 'S4': 40, 'S5': 60}
+  Shifted  (age->S5): composite = S5   totals = {'S2': 0, 'S3': 0, 'S4': 30, 'S5': 70}
+  No reclassification
+
+Andhra Pradesh (age=9.8%, band=S3->S4, published=S4)
+  Baseline (age->S3): composite = S4   totals = {'S2': 0, 'S3': 10, 'S4': 90, 'S5': 0}
+  Shifted  (age->S4): composite = S4   totals = {'S2': 0, 'S3': 0, 'S4': 100, 'S5': 0}
+  No reclassification
+
+Telangana (age=9.23%, band=S3->S4, published=S4)
+  Baseline (age->S3): composite = S4   totals = {'S2': 0, 'S3': 10, 'S4': 55, 'S5': 35}
+  Shifted  (age->S4): composite = S4   totals = {'S2': 0, 'S3': 0, 'S4': 65, 'S5': 35}
+  No reclassification
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+None of the four states reclassify when their age-structure band is
+shifted up one tier. This confirms footnote 1's claim: even if the
+stale 2011 Census data understates current ageing in these states,
+age structure's 10% weight is too small on its own to move any of
+them to a different composite stage; TFR, CBR, IMR, and CDR remain
+the decisive signals.

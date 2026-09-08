@@ -1,0 +1,35 @@
+==============================================================================
+16-STATE MIGRATION MODEL VERIFICATION (Table 4, secondary model)
+==============================================================================
+
+n = 16 states flagged for secondary-model inclusion.
+Northeast Cluster states in this sample: NONE
+(Confirms the manuscript's claim that migration data exclude the Northeast Cluster entirely.)
+
+Variable                   beta    p-value          Sig
+--------------------------------------------------------
+const                 -250.7468     0.0839         n.s.
+Female_Literacy          1.6314     0.0238   * (p<0.05)
+Pct_Christian           -0.2361     0.8672         n.s.
+ln_NSDP                 16.3016     0.1981         n.s.
+Net_Migration            0.5285     0.8113         n.s.
+
+Adjusted R-squared = 0.7127
+
+------------------------------------------------------------------------------
+RECONCILIATION
+------------------------------------------------------------------------------
+  Literacy beta    computed=   1.6314  manuscript=   1.6300  MATCH
+  Literacy p       computed=   0.0238  manuscript=   0.0240  MATCH
+  Christian beta   computed=  -0.2361  manuscript=  -0.2400  MATCH
+  ln(NSDP) beta    computed=  16.3016  manuscript=  16.3000  MATCH
+  ln(NSDP) p       computed=   0.1981  manuscript=   0.2000  MATCH
+  Migration beta   computed=   0.5285  manuscript=   0.5300  MATCH
+  Migration p      computed=   0.8113  manuscript=   0.8100  MATCH
+  Adjusted R2      computed=   0.7127  manuscript=   0.7130  MATCH
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+Every coefficient, p-value, and Adjusted R-squared matches the
+manuscript's Table 4 secondary model to within rounding.

@@ -1,0 +1,40 @@
+======================================================================
+PRINCIPAL COMPONENTS ANALYSIS (Section 6.1)
+======================================================================
+
+First component:  56.4% of variance (eigenvalue = 2.82)
+Second component: 32.0% of variance (eigenvalue = 1.60)
+
+Loadings on PC1 / PC2:
+  TFR                     PC1=+0.536   PC2=-0.066
+  CBR                     PC1=+0.565   PC2=+0.153
+  IMR                     PC1=+0.487   PC2=+0.400
+  CDR                     PC1=-0.074   PC2=+0.759
+  Age structure (60+)     PC1=-0.389   PC2=+0.487
+
+======================================================================
+WARD'S-LINKAGE HIERARCHICAL CLUSTER ANALYSIS (Section 5.6)
+======================================================================
+
+-- k=3 clusters --
+  Cluster 1: ['Bihar', 'Uttar Pradesh', 'Meghalaya', 'Madhya Pradesh', 'Rajasthan', 'Chhattisgarh', 'Jharkhand', 'Assam', 'Odisha']
+  Cluster 2: ['Arunachal Pradesh', 'Manipur', 'Nagaland', 'Mizoram', 'Sikkim']
+  Cluster 3: ['Uttarakhand', 'Haryana', 'Maharashtra', 'Karnataka', 'Gujarat', 'Punjab', 'West Bengal', 'Himachal Pradesh', 'Andhra Pradesh', 'Telangana', 'Tripura', 'Kerala', 'Tamil Nadu', 'Goa']
+
+-- k=4 clusters --
+  Cluster 2: ['Bihar', 'Uttar Pradesh', 'Meghalaya', 'Madhya Pradesh', 'Rajasthan', 'Jharkhand', 'Assam']
+  Cluster 1: ['Chhattisgarh', 'Odisha']
+  Cluster 3: ['Arunachal Pradesh', 'Manipur', 'Nagaland', 'Mizoram', 'Sikkim']
+  Cluster 4: ['Uttarakhand', 'Haryana', 'Maharashtra', 'Karnataka', 'Gujarat', 'Punjab', 'West Bengal', 'Himachal Pradesh', 'Andhra Pradesh', 'Telangana', 'Tripura', 'Kerala', 'Tamil Nadu', 'Goa']
+
+-- k=5 clusters --
+  Cluster 2: ['Bihar', 'Uttar Pradesh', 'Meghalaya', 'Madhya Pradesh', 'Rajasthan', 'Jharkhand', 'Assam']
+  Cluster 1: ['Chhattisgarh', 'Odisha']
+  Cluster 3: ['Arunachal Pradesh', 'Manipur', 'Nagaland', 'Mizoram', 'Sikkim']
+  Cluster 5: ['Uttarakhand', 'Haryana', 'Maharashtra', 'Karnataka', 'Gujarat', 'Punjab', 'West Bengal', 'Himachal Pradesh', 'Andhra Pradesh', 'Telangana', 'Tripura']
+  Cluster 4: ['Kerala', 'Tamil Nadu', 'Goa']
+
+Mean pairwise distance, Nagaland/Mizoram/Sikkim (Euclidean): 0.3953
+Mean pairwise distance, all 28 states (Euclidean): 0.7297
+  -> 45.8% lower than sample average (Euclidean)
+  -> 48.1% lower than sample average (Manhattan)
